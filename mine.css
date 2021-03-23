@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(95, 203, 223);
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-left: 10px;
+  border: 5px solid rgb(193, 245, 245);
+  background: rgb(158, 221, 221);
+  padding: 0 10px;
+}
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.img {
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.4s;
+  object-position: left;
+  width: 300px;
+  object-fit: cover;
+}
+.container:hover .img {
+  object-position: right;
+  border-radius: 25px;
+  transform: skew(-5deg) scale(0.5) rotate(360deg);
+}
+body {
+  background-image: url(leaves-background-with-metallic-foil_79603-956.jpg);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.582);
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+  /* height: 20px; */
+}
+.yotc {
+  color: rgba(0, 0, 0, 0.555);
+  text-decoration: none;
+}
+.header__link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

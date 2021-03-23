@@ -1,0 +1,7 @@
+.none {
+  display: none;
+}
+.game {
+  display: flex;
+  justify-content: center;
+}
